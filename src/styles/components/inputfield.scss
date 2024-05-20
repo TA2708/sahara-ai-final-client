@@ -1,0 +1,21 @@
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    // border: 2px solid black;
+    position: absolute;
+    bottom: 32px;
+    .input-field{
+        // border: 2px solid black;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .input{
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
